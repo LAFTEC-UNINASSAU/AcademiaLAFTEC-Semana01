@@ -6,7 +6,32 @@
   </head>
   <body>
       <h1>Git e Github</h1>
-      <p> FAÇA SEU RESUMO AQUI </p>
+      <p> 
+
+      Git é um controle de versão distribuido, o qual tem a finalidade de desenvolver softwares e de gerenciar diferentes versões de um documento. Ele arquiva os estados (SNAPSHOTS) do arquivo independentemente de ocorrer, ou não, alterações.
+      Sua criação foi dada por Linus Tovards, também criador e desenvolvedor do s.o. Linux, quando o sucessor do Git, o Bitkeeper, foi incapaz de atender as necessidades como um sistema de controle de versão.
+
+
+      O Git segue uma sequência ordenada de estágios para relizar um commit. Os estágios são, respectivamente: Untracked - Unmodified - Modified - Staged. E assim, o arquivo está pronto para ser comitado.
+
+
+      Esse sistema conta também, mutualmente, com uma rede social a qual projetos podem ser compartilhados com quaisquer pessoas ao redor do mundo.
+
+      
+      Com essa possibilidade de trabalho em conjunto, surge uma possibilidade de precisar unir branches para prosseguir trabalhando em tal projeto específico.E, dessa forma, há dois comandos distintos que podem solucionar a situação, são eles: Merge e Rebase. O Merge utiliza a criação de um novo commit contendo os commits dos branches a serem mesclados, em vista disso, não há perda de files (operação nãp destrutiva), contudo, polui o histórico com tal necessidade de um novo commit. Já o Rebase utiliza de um processo chamado Fast-Foward, que duplica um dos commits e coloca-o como primeiro da fila, garantindo assim, o alinhamento dos commits (hitórico linear), porém, perde-se a ordem cronológica. No Rebase, o commit que foi duplicado recebe um apostrófo " x' " passando a ser chamado de "commit x linha", enquanto o commit original do qual foi duplicado é deletado.
+
+
+      No conjunto dos comandos do Git está contido também o Git Stash, este por sua vez arquiva modificações que não passaram pelo estágio do commit e armazena-os para futuras alterações.
+
+      Por ter o mesmo criador, Linus Tovards, o Git apresenta também em sua composição comandos que estão igualmente presentes em terminais unix, como por exemplo: Alias, comando este que cria atalhos personalizados a titulo do usuário.
+
+
+      Durante o desenvolvimento de algum trabalho a ser lançado no github, pode ocorrer de conter arquivos indesejáveis/desnecessários que acabam sendo enviados juntamente no commit dado. Para isso, há uma solução, na qual o "comando" .gitignore pode ajudar. Sua aplicação consiste na criação de um arquivo texto com tal título ".gitignore" e dentro a especifícação das extensões/nomes dos arquivos que deseja-se ocultar no commit a ser realizado.
+
+
+       Angélica M.
+
+      </p>
    
   </body>
 </html>
